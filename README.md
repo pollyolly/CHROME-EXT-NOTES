@@ -2,12 +2,12 @@
 
 ### Installation
 ```
-a. Go to Extensions
-b. Click Manage Extension
-c. Click Developer Mode
-d. Click Load Unpacked
-e. Choose your Extension folder
-f. Click Extension Icon
+a. Go to Chrome Extensions
+b. Click Chrome manage Extension
+c. Click extensions Developer Mode
+d. Click extensions Load Unpacked
+e. Upload your Extension project folder
+f. Click in upper-right corner the Chrome Extension Icon
 g. Click pin extension
 ```
 
