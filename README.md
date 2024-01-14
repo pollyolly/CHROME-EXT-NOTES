@@ -11,3 +11,5 @@ f. Click Extension Icon
 g. Click pin extension
 ```
 
+### Reference
+[Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
