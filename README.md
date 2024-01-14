@@ -3,5 +3,6 @@
 ### Installation
 ```
 a. Go to Extensions
-b. Click 
+b. Click Manage Extension
+c. Click Developer Mode
 ```
