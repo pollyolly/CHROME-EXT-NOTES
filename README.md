@@ -29,6 +29,8 @@ pdf-ireader-ext/
 ---pdf-ireader.css
 ---window.html
 ---icon16.png
+---webpack.config.js
+---tsconfig.json
 ```
 ### Manifest JSON
 pdf-ireader-ext/manifest.json (Create Manually)
