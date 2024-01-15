@@ -31,7 +31,7 @@ pdf-ireader-ext/
 ---icon16.png
 ```
 ### Manifest JSON
-manifest.json (Create Manually)
+pdf-ireader-ext/manifest.json (Create Manually)
 ```json
 {
     "manifest_version": 3,
