@@ -152,7 +152,33 @@ Compiled generated
 ```
 pdf-ireader-ext/dist/index.js
 ```
-### Manifest.json To Dist/
+### Manifest.json and Package JSON
+Added script watch
+```
+{
+  "name": "pdf-ireader",
+  "version": "1.0.0",
+  "description": "[Chrome Ext Generator](https://alexleybourne.github.io/chrome-extension-icon-generator/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "watch": "webpack --watch --progress --config webpack.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "copy-webpack-plugin": "^12.0.1",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
+
+```
 ```
 $ npm install copy-webpack-plugin
 $ npm install path
@@ -191,6 +217,9 @@ module.exports = {
     },
     
 }
+```
+```
+$ npm run watch
 ```
 ### Reference
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
