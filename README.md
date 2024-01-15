@@ -24,6 +24,7 @@ pdf-ireader-ext/
 ---scripts/
 ------content.js
 ---background.js
+---index.js
 ---manifest.json
 ---pdf-ireader.css
 ---window.html
