@@ -27,7 +27,7 @@ pdf-ireader-ext/
 ---manifest.json
 ---pdf-ireader.css
 ---window.html
----logo.png
+---icon16.png
 ```
 ### Manifest JSON
 manifest.json
