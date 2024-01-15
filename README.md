@@ -92,5 +92,55 @@ package.json (Automatically created)
   }
 }
 ```
+### TSConfig
+```
+$ cd pdf-ireader-ext/
+$ npm install ts-loader
+```
+tsconfig.json
+```
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "es6",
+        "target": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"],
+}{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "es6",
+        "target": "es6",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"],
+}
+```
+### Webpack 5
+webpack.config.js
+```
+module.exports = {
+    mode: "development",
+    entry: "./src/test.tsx",
+    module: {
+        rules: [{
+            use: "ts-loader",
+            test: /\.tsx$/,
+            exclude: /node_modules/
+    }]
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
+    },
+    output: {
+        filename: "index.js"
+    }
+}
+```
 ### Reference
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
