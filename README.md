@@ -142,5 +142,9 @@ module.exports = {
     }
 }
 ```
+Compiled generated
+```
+pdf-ireader-ext/dist/index.js
+```
 ### Reference
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
