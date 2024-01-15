@@ -142,6 +142,10 @@ module.exports = {
     }
 }
 ```
+```
+$ cd pdf-ireader-ext/
+$ npm run dev
+```
 Compiled generated
 ```
 pdf-ireader-ext/dist/index.js
