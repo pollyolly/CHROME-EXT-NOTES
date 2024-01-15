@@ -10,7 +10,7 @@ e. Upload your Extension project folder
 f. Click in upper-right corner the Chrome Extension Icon
 g. Click pin extension
 ```
-### Structure
+### Project Structure
 ```vim
 pdf-ireader-ext/
 ---icons/
