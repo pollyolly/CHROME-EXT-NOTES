@@ -11,9 +11,9 @@ f. Click in upper-right corner the Chrome Extension Icon
 g. Click pin extension
 ```
 ### Structure
-```
 
-```
+<img src="https://github.com/pollyolly/CHROME-EXT-NOTES/blob/main/extension-structure.png" width="100"/>
+
 ### Manifest
 manifest.json
 ```json
