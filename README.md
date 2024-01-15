@@ -72,7 +72,7 @@ $ npm install react-dom
 $ npm install webpack
 $ npm install webpack-cli
 ```
-package.json
+package.json (Automatically created)
 ```
 {
   "name": "pdf-ireader",
