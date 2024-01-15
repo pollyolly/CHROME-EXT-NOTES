@@ -72,7 +72,7 @@ $ npm install react-dom
 $ npm install webpack
 $ npm install webpack-cli
 ```
-package.json (Automatically created)
+package.json (Automatically Created)
 ```
 {
   "name": "pdf-ireader",
@@ -97,7 +97,7 @@ package.json (Automatically created)
 $ cd pdf-ireader-ext/
 $ npm install ts-loader
 ```
-tsconfig.json
+tsconfig.json (Create Manually)
 ```
 {
     "compilerOptions": {
@@ -122,7 +122,7 @@ tsconfig.json
 }
 ```
 ### Webpack 5
-webpack.config.js
+webpack.config.js (Create Manually)
 ```
 module.exports = {
     mode: "development",
