@@ -11,10 +11,26 @@ f. Click in upper-right corner the Chrome Extension Icon
 g. Click pin extension
 ```
 ### Structure
+```vim
+pdf-ireader-ext/
+---icons/
+------icon16.png
+------icon32.png
+------icon148.png
+------icon128.png
+---popup/
+------popup.css
+------popup.js
+---scripts/
+------content.js
+---background.js
+---index.js
+---manifest.json
+---pdf-ireader.css
+---window.html
+---icon16.png
 ```
-
-```
-### Manifest
+### Manifest JSON
 manifest.json
 ```json
 {
