@@ -12,7 +12,7 @@ g. Click pin extension
 ```
 ### Structure
 
-<img src="https://github.com/pollyolly/CHROME-EXT-NOTES/blob/main/extension-structure.png" width="150"/>
+<img src="https://github.com/pollyolly/CHROME-EXT-NOTES/blob/main/extension-structure.png" width="200"/>
 
 ### Manifest
 manifest.json
