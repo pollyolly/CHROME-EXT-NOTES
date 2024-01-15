@@ -152,5 +152,45 @@ Compiled generated
 ```
 pdf-ireader-ext/dist/index.js
 ```
+### Manifest.json To Dist/
+```
+$ npm install copy-webpack-plugin
+$ npm install path
+```
+```
+const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
+
+module.exports = {
+    mode: "development",
+    entry: "./src/test.tsx",
+    module: {
+        rules:[
+        {
+            use: "ts-loader",
+            test: /\.tsx$/,
+            exclude: /node_modules/
+        }
+    ]
+    },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.resolve("manifest.json"),
+                    to: path.resolve("dist/")
+                }
+            ]
+        })
+    ],
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
+    },
+    output: {
+        filename: "index.js"
+    },
+    
+}
+```
 ### Reference
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
