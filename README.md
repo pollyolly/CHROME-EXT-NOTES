@@ -14,7 +14,7 @@ g. Click pin extension
 
 <img src="https://github.com/pollyolly/CHROME-EXT-NOTES/blob/main/extension-structure.png" width="300"/>
 
-### Manifest
+### Manifest JSON
 manifest.json
 ```json
 {
