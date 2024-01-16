@@ -219,7 +219,7 @@ module.exports = {
             patterns: [
                 {
                     from: path.resolve("manifest.json"),
-                    to: path.resolve("dist/")
+                    to: path.resolve("dist")
                 }
             ]
         }),
