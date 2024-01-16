@@ -201,7 +201,13 @@ module.exports = {
             use: "ts-loader",
             test: /\.tsx$/,
             exclude: /node_modules/
-        }
+        },
+//    get resources
+        {
+            type: "assets/resource",
+            use: 'assets/resource',
+            test: /\.(png|jpg|jpeg|gif|woff|tff|eot|svg)$/,
+        },
     ]
     },
     plugins: [
@@ -213,16 +219,17 @@ module.exports = {
                 }
             ]
         }),
-        ...getHmlPlugins(['popup', options])
+        ...getHmlPlugins(['popup', options]) //Get Chunks dynamically
     ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
     },
     output: {
-        filename: "index.js"
+        filename: '[name].js'  //get name on Chunks
     },
     
 }
+//Automatically iterate on Chunks
 function getHtmlPlugins(chunks){
     return chunks.map(chunk => new HtmlPlugin({
         title: 'PDF iReader Ext',
