@@ -8,7 +8,7 @@ c. Click extensions Developer Mode
 d. Click extensions Load Unpacked
 e. Upload your Extension project folder
 f. Click in upper-right corner the Chrome Extension Icon
-g. Click pin extension
+g. Click Pin extension
 ```
 ### Project Structure
 ```vim
