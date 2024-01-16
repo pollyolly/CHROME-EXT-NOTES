@@ -223,3 +223,5 @@ $ npm run watch
 ```
 ### Reference
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
+
+[Webpack 5](https://webpack.js.org/concepts/plugins/)
