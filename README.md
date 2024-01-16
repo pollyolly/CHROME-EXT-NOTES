@@ -153,7 +153,10 @@ Compiled generated
 pdf-ireader-ext/dist/index.js
 ```
 ### Manifest.json and Package JSON
-Added in package.json script { "watch": "webpack --watch --progress --config webpack.config.js" }
+```
+scripts: { "watch": "webpack --watch --progress --config webpack.config.js" }
+```
+Added in package.json 
 ```
 {
   "name": "pdf-ireader",
