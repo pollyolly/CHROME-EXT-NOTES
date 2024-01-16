@@ -206,7 +206,7 @@ module.exports = {
             test: /\.tsx$/,
             exclude: /node_modules/
         },
-//    get resources
+    // Get resources
         {
             type: "assets/resource",
             use: 'assets/resource',
