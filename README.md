@@ -253,3 +253,5 @@ $ npm run watch
 [Google Extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
 
 [Webpack 5](https://webpack.js.org/concepts/plugins/)
+
+[Functional Samples](https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/functional-samples)
