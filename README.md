@@ -164,7 +164,6 @@ Added in package.json
   "description": "[Chrome Ext Generator](https://alexleybourne.github.io/chrome-extension-icon-generator/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack",
     "watch": "webpack --watch --progress --config webpack.config.js"
   },
