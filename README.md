@@ -224,6 +224,11 @@ module.exports = {
             ]
         }),
         ...getHmlPlugins(['popup', options]) //Get Chunks dynamically
+        // new HtmlPlugin({
+        //     title: 'PDF iReader',
+        //     filename: 'popup.html',
+        //     chunks: ['popup'] //Chunks
+        // }),
     ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
