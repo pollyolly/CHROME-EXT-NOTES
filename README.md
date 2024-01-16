@@ -185,10 +185,12 @@ Added in package.json
 ```
 $ npm install copy-webpack-plugin
 $ npm install path
+$ npm install html-webpack-plugin
 ```
 ```
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
+const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
@@ -210,7 +212,8 @@ module.exports = {
                     to: path.resolve("dist/")
                 }
             ]
-        })
+        }),
+        ...getHmlPlugins(['popup', options])
     ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
@@ -219,6 +222,13 @@ module.exports = {
         filename: "index.js"
     },
     
+}
+function getHtmlPlugins(chunks){
+    return chunks.map(chunk => new HtmlPlugin({
+        title: 'PDF iReader Ext',
+        filename: `${chunk}.html`,
+        chunks: [chunks]
+    }));
 }
 ```
 ```
