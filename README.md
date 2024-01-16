@@ -194,7 +194,11 @@ const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "development",
-    entry: "./src/test.tsx",
+    devtool: 'cheap-module-source-map', //create file.js.map
+    /* entry: "./src/test.tsx" */
+    entry: {
+        popup: path.resolve('./src/popup/popup.tsx'),
+    },
     module: {
         rules:[
         {
